@@ -423,44 +423,6 @@ Array
                     [97] => QUINQUEVALVE
                     [98] => QUINQUEVALVOUS
                     [99] => QUINQUEVALVULAR
-                    [100] => QUINQUEVERBAL
-                    [101] => QUINQUEVERBIAL
-                    [102] => QUINQUEVIR
-                    [103] => QUINQUEVIRATE
-                    [104] => QUINQUEVIRS
-                    [105] => QUINQUILITERAL
-                    [106] => QUINQUINA
-                    [107] => QUINQUINO
-                    [108] => QUINQUIVALENT
-                    [109] => QUIRQUINCHO
-                    [110] => QUISQUALIS
-                    [111] => QUISQUEITE
-                    [112] => QUISQUILIAN
-                    [113] => QUISQUILIARY
-                    [114] => QUISQUILIOUS
-                    [115] => QUISQUOUS
-                    [116] => QUITAQUE
-                    [117] => QUOBOSQUE-WEED
-                    [118] => SAQQARA
-                    [119] => SEMIQUINQUEFID
-                    [120] => SEQQ
-                    [121] => SEQQ.
-                    [122] => SESQUIQUADRATE
-                    [123] => SESQUIQUARTA
-                    [124] => SESQUIQUARTAL
-                    [125] => SESQUIQUARTILE
-                    [126] => SESQUIQUINTA
-                    [127] => SESQUIQUINTAL
-                    [128] => SESQUIQUINTILE
-                    [129] => SESQUISQUARE
-                    [130] => SQQ
-                    [131] => SQQ.
-                    [132] => SQUANTER-SQUASH
-                    [133] => SQUISH-SQUASH
-                    [134] => SUBQUINQUEFID
-                    [135] => TUQUOQUE
-                    [136] => ZAQAZIQ
-                    [137] => ZAQQUM
                 )
 
         )
