@@ -1,0 +1,685 @@
+Array
+(
+    [A] => Array
+        (
+            [count] => 6
+            [words] => Array
+                (
+                    [0] => AAAAAA
+                    [1] => ASTASIA-ABASIA
+                    [2] => TARAMASALATA
+                )
+
+        )
+
+    [B] => Array
+        (
+            [count] => 6
+            [words] => Array
+                (
+                    [0] => BIBBLE-BABBLE
+                )
+
+        )
+
+    [C] => Array
+        (
+            [count] => 6
+            [words] => Array
+                (
+                    [0] => MICROCOCCOCCI
+                )
+
+        )
+
+    [D] => Array
+        (
+            [count] => 6
+            [words] => Array
+                (
+                    [0] => DIDDLE-DADDLE
+                )
+
+        )
+
+    [E] => Array
+        (
+            [count] => 6
+            [words] => Array
+                (
+                    [0] => CREEPIE-PEEPIE
+                    [1] => DEGENERESCENCE
+                    [2] => EVER-ESTEEMED
+                    [3] => HEEBIE-JEEBIES
+                    [4] => SLEEVE-DEFENDED
+                    [5] => STEREOTELEMETER
+                    [6] => TEENIE-WEENIE
+                    [7] => TEENSIE-WEENSIE
+                )
+
+        )
+
+    [F] => Array
+        (
+            [count] => 4
+            [words] => Array
+                (
+                    [0] => AFFUSEDAFFUSING
+                    [1] => CHIFFCHAFF
+                    [2] => CHIFF-CHAFF
+                    [3] => FIFTY-FIFTH
+                    [4] => FIFTY-FIFTY
+                    [5] => FIFTYTY-FIFTY
+                    [6] => GIFFGAFF
+                    [7] => GIFF-GAFF
+                    [8] => HUFF-DUFF
+                    [9] => HUFF-SNUFF
+                    [10] => NIFFY-NAFFY
+                    [11] => NIFF-NAFF
+                    [12] => NIFF-NAFFY
+                    [13] => OFF-THE-CUFF
+                    [14] => PIFF-PAFF
+                    [15] => PUFF-PUFF
+                    [16] => RIFFRAFF
+                    [17] => RIFF-RAFF
+                    [18] => RIFFRAFFS
+                    [19] => RUFFY-TUFFY
+                    [20] => SCAFF-RAFF
+                    [21] => SHIFFLE-SHUFFLE
+                )
+
+        )
+
+    [G] => Array
+        (
+            [count] => 4
+            [words] => Array
+                (
+                    [0] => AGGREGATING
+                    [1] => CHUGALUGGING
+                    [2] => CUGGERMUGGER
+                    [3] => DOGLEGGING
+                    [4] => DRIGGLE-DRAGGLE
+                    [5] => GAGGING
+                    [6] => GAGGLING
+                    [7] => GANGGANG
+                    [8] => GIGGING
+                    [9] => GIGGLING
+                    [10] => GIGGLINGLY
+                    [11] => GLUGGING
+                    [12] => GLUGGLUG
+                    [13] => GOGGLING
+                    [14] => GOGMAGOG
+                    [15] => GONG-GONG
+                    [16] => GRAVE-DIGGING
+                    [17] => GROGGING
+                    [18] => GUGGLING
+                    [19] => GUMDIGGING
+                    [20] => HIGGLEHAGGLE
+                    [21] => HUGGERMUGGER
+                    [22] => HUGGER-MUGGER
+                    [23] => HUGGERMUGGERY
+                    [24] => HUGGER-MUGGERY
+                    [25] => KEGGMIENGG
+                    [26] => LALLYGAGGING
+                    [27] => LOLLYGAGGING
+                    [28] => LUGGNAGG
+                    [29] => PIGGY-WIGGY
+                    [30] => RAGGLE-TAGGLE
+                    [31] => REAGGREGATING
+                    [32] => THROUGHGANGING
+                    [33] => TONGUE-WAGGING
+                    [34] => UNGAGGING
+                    [35] => WIGGLE-WAGGLE
+                    [36] => WIGGLE-WOGGLE
+                    [37] => WIGGLY-WAGGLY
+                    [38] => WIGWAGGING
+                    [39] => ZIGZAGGING
+                )
+
+        )
+
+    [H] => Array
+        (
+            [count] => 4
+            [words] => Array
+                (
+                    [0] => CHICHIHAERH
+                    [1] => HIGH-CHURCH
+                    [2] => HIGH-CHURCHISM
+                    [3] => HIGH-CHURCHIST
+                    [4] => HIGH-CHURCHMAN
+                    [5] => HIGH-THOUGHTED
+                    [6] => HOCHHUTH
+                    [7] => HUSH-HUSH
+                    [8] => RHAMPHORHYNCHUS
+                    [9] => SHIHCHIACHUANG
+                )
+
+        )
+
+    [I] => Array
+        (
+            [count] => 6
+            [words] => Array
+                (
+                    [0] => DIVISIBILITIES
+                    [1] => INDIVISIBILITY
+                    [2] => INVINCIBILITIES
+                    [3] => INVISIBILITIES
+                    [4] => MINIMIFIDIANISM
+                )
+
+        )
+
+    [J] => Array
+        (
+            [count] => 4
+            [words] => Array
+                (
+                    [0] => JAJAWIJAJA
+                )
+
+        )
+
+    [K] => Array
+        (
+            [count] => 4
+            [words] => Array
+                (
+                    [0] => AKISKEMIKINIK
+                    [1] => KAKKAK
+                    [2] => KLOOK-KLOOK
+                    [3] => KNICKKNACK
+                    [4] => KNICK-KNACK
+                    [5] => KNICKKNACKATORY
+                    [6] => KNICKKNACKED
+                    [7] => KNICKKNACKERY
+                    [8] => KNICKKNACKET
+                    [9] => KNICKKNACKY
+                    [10] => KNICKKNACKISH
+                    [11] => KNICKKNACKS
+                    [12] => SKKVABEKK
+                )
+
+        )
+
+    [L] => Array
+        (
+            [count] => 5
+            [words] => Array
+                (
+                    [0] => ALLOCHLOROPHYLL
+                    [1] => CELLULIFUGALLY
+                    [2] => CELLULIPETALLY
+                    [3] => HALF-WILLFULLY
+                    [4] => LILLIBULLERO
+                    [5] => LILLY-PILLY
+                    [6] => LOWELLVILLE
+                    [7] => MCCLELLANVILLE
+                    [8] => WELL-LEVELLED
+                )
+
+        )
+
+    [M] => Array
+        (
+            [count] => 4
+            [words] => Array
+                (
+                    [0] => DEMI-MOHAMMEDAN
+                    [1] => MAMMATOCUMULUS
+                    [2] => MAMMATO-CUMULUS
+                    [3] => MAMMECTOMY
+                    [4] => MAMMIFORM
+                    [5] => MAMMILLIFORM
+                    [6] => MAMMOGRAM
+                    [7] => MAMMONDOM
+                    [8] => MAMMONISM
+                    [9] => MAMMOTOMY
+                    [10] => MELAMMDIM
+                    [11] => MERCURIAMMONIUM
+                    [12] => METAGRAMMATISM
+                    [13] => METALAMMONIUM
+                    [14] => MIDSUMMER-MEN
+                    [15] => MMMM
+                    [16] => MOHAMMEDANISM
+                    [17] => MOHAMMEDISM
+                    [18] => MONOAMMONIUM
+                    [19] => MUHAMMADANISM
+                    [20] => MULTIMAMMATE
+                    [21] => MUMBO-JUMBOISM
+                    [22] => MUMMYDOM
+                    [23] => MUMMIFORM
+                    [24] => NIMMY-PIMMY
+                    [25] => THEOMAMMOMIST
+                )
+
+        )
+
+    [N] => Array
+        (
+            [count] => 6
+            [words] => Array
+                (
+                    [0] => NONANNOUNCEMENT
+                    [1] => NONNY-NONNY
+                )
+
+        )
+
+    [O] => Array
+        (
+            [count] => 6
+            [words] => Array
+                (
+                    [0] => MONOGONOPOROUS
+                    [1] => ODONTONOSOLOGY
+                )
+
+        )
+
+    [P] => Array
+        (
+            [count] => 4
+            [words] => Array
+                (
+                    [0] => APLOPAPPUS
+                    [1] => COPPICE-TOPPED
+                    [2] => HIPPETY-HOPPETY
+                    [3] => IPPI-APPA
+                    [4] => PAPER-CAPPED
+                    [5] => PEPPER-POT
+                    [6] => PEPPERPROOF
+                    [7] => PHILIPPOPOLIS
+                    [8] => PIMPERLIMPIMP
+                    [9] => PIPESTAPPLE
+                    [10] => PIPE-TAPPING
+                    [11] => PIPPAPASSES
+                    [12] => PIP-PIP
+                    [13] => POPPY-PINK
+                    [14] => POPPY-SPRINKLED
+                    [15] => POSTHIPPOCAMPAL
+                    [16] => PREAPPERCEPTION
+                    [17] => PRO-PHILIPPINE
+                    [18] => PROTOPAPPAS
+                    [19] => PUPPET-PLAY
+                    [20] => PURPLE-TIPPED
+                    [21] => PURPLE-TOPPED
+                    [22] => SNIPPERSNAPPER
+                    [23] => SNIPPER-SNAPPER
+                    [24] => UNHAPPY-HAPPY
+                    [25] => UPPROPPED
+                    [26] => UPPROPPING
+                    [27] => WHIPPERSNAPPER
+                    [28] => WHIPPER-SNAPPER
+                    [29] => WHIPPERSNAPPERS
+                )
+
+        )
+
+    [Q] => Array
+        (
+            [count] => 2
+            [words] => Array
+                (
+                    [0] => ABQAIQ
+                    [1] => ALBUQUERQUE
+                    [2] => BASOTHO-QWAQWA
+                    [3] => CHIQUINQUIRA
+                    [4] => CIRCUMQUAQUE
+                    [5] => COLLOQUIQUIA
+                    [6] => COLLOQUIQUIUMS
+                    [7] => COLLOQUQUIA
+                    [8] => EQUAL-AQUAL
+                    [9] => EQUIVOQUE
+                    [10] => HARLEQUINESQUE
+                    [11] => IQUIQUE
+                    [12] => QAIMAQAM
+                    [13] => QQ
+                    [14] => QQ.
+                    [15] => QQV
+                    [16] => QUACK-QUACK
+                    [17] => QUAEQUAE
+                    [18] => QUAQUAVERSAL
+                    [19] => QUAQUAVERSALLY
+                    [20] => QUASI-ADEQUATE
+                    [21] => QUASI-ANTIQUE
+                    [22] => QUASI-ELOQUENT
+                    [23] => QUASI-EQUAL
+                    [24] => QUASI-EQUALLY
+                    [25] => QUASI-EQUITABLE
+                    [26] => QUASI-EQUITABLY
+                    [27] => QUASI-QUALIFIED
+                    [28] => QUASI-REQUIRED
+                    [29] => QUASQUETON
+                    [30] => QUELQUECHOSE
+                    [31] => QUIAQUIA
+                    [32] => QUIA-QUIA
+                    [33] => QUINAQUINA
+                    [34] => QUINQUAGENARY
+                    [35] => QUINQUAGENARIAN
+                    [36] => QUINQUAGENARIES
+                    [37] => QUINQUAGESIMA
+                    [38] => QUINQUAGESIMAL
+                    [39] => QUINQUANGLE
+                    [40] => QUINQUARTICULAR
+                    [41] => QUINQUATRIA
+                    [42] => QUINQUATRUS
+                    [43] => QUINQUE
+                    [44] => QUINQUE-
+                    [45] => QUINQUE-ANGLE
+                    [46] => QUINQUE-ANGLED
+                    [47] => QUINQUE-ANGULAR
+                    [48] => QUINQUECAPSULAR
+                    [49] => QUINQUECOSTATE
+                    [50] => QUINQUEDENTATE
+                    [51] => QUINQUEDENTATED
+                    [52] => QUINQUEFARIOUS
+                    [53] => QUINQUEFID
+                    [54] => QUINQUEFOIL
+                    [55] => QUINQUEFOLIATE
+                    [56] => QUINQUEFOLIATED
+                    [57] => QUINQUEGRADE
+                    [58] => QUINQUEJUGOUS
+                    [59] => QUINQUELATERAL
+                    [60] => QUINQUELITERAL
+                    [61] => QUINQUELOBATE
+                    [62] => QUINQUELOBATED
+                    [63] => QUINQUELOBED
+                    [64] => QUINQUELOCULAR
+                    [65] => QUINQUELOCULINE
+                    [66] => QUINQUENARY
+                    [67] => QUINQUENERVAL
+                    [68] => QUINQUENERVED
+                    [69] => QUINQUENNALIA
+                    [70] => QUINQUENNIA
+                    [71] => QUINQUENNIAD
+                    [72] => QUINQUENNIAL
+                    [73] => QUINQUENNIALIST
+                    [74] => QUINQUENNIALLY
+                    [75] => QUINQUENNIUM
+                    [76] => QUINQUENNIUMS
+                    [77] => QUINQUEPARTITE
+                    [78] => QUINQUEPEDAL
+                    [79] => QUINQUEPEDALIAN
+                    [80] => QUINQUEPETALOID
+                    [81] => QUINQUEPUNCTAL
+                    [82] => QUINQUEPUNCTATE
+                    [83] => QUINQUERADIAL
+                    [84] => QUINQUERADIATE
+                    [85] => QUINQUEREME
+                    [86] => QUINQUERTIUM
+                    [87] => QUINQUESECT
+                    [88] => QUINQUESECTION
+                    [89] => QUINQUESEPTATE
+                    [90] => QUINQUESERIAL
+                    [91] => QUINQUESERIATE
+                    [92] => QUINQUESYLLABIC
+                    [93] => QUINQUESYLLABLE
+                    [94] => QUINQUEVALENCE
+                    [95] => QUINQUEVALENCY
+                    [96] => QUINQUEVALENT
+                    [97] => QUINQUEVALVE
+                    [98] => QUINQUEVALVOUS
+                    [99] => QUINQUEVALVULAR
+                    [100] => QUINQUEVERBAL
+                    [101] => QUINQUEVERBIAL
+                    [102] => QUINQUEVIR
+                    [103] => QUINQUEVIRATE
+                    [104] => QUINQUEVIRS
+                    [105] => QUINQUILITERAL
+                    [106] => QUINQUINA
+                    [107] => QUINQUINO
+                    [108] => QUINQUIVALENT
+                    [109] => QUIRQUINCHO
+                    [110] => QUISQUALIS
+                    [111] => QUISQUEITE
+                    [112] => QUISQUILIAN
+                    [113] => QUISQUILIARY
+                    [114] => QUISQUILIOUS
+                    [115] => QUISQUOUS
+                    [116] => QUITAQUE
+                    [117] => QUOBOSQUE-WEED
+                    [118] => SAQQARA
+                    [119] => SEMIQUINQUEFID
+                    [120] => SEQQ
+                    [121] => SEQQ.
+                    [122] => SESQUIQUADRATE
+                    [123] => SESQUIQUARTA
+                    [124] => SESQUIQUARTAL
+                    [125] => SESQUIQUARTILE
+                    [126] => SESQUIQUINTA
+                    [127] => SESQUIQUINTAL
+                    [128] => SESQUIQUINTILE
+                    [129] => SESQUISQUARE
+                    [130] => SQQ
+                    [131] => SQQ.
+                    [132] => SQUANTER-SQUASH
+                    [133] => SQUISH-SQUASH
+                    [134] => SUBQUINQUEFID
+                    [135] => TUQUOQUE
+                    [136] => ZAQAZIQ
+                    [137] => ZAQQUM
+                )
+
+        )
+
+    [R] => Array
+        (
+            [count] => 5
+            [words] => Array
+                (
+                    [0] => TERROR-STIRRING
+                )
+
+        )
+
+    [S] => Array
+        (
+            [count] => 7
+            [words] => Array
+                (
+                    [0] => MASSLESSNESSES
+                    [1] => STRESSLESSNESS
+                    [2] => SUCCESSLESSNESS
+                )
+
+        )
+
+    [T] => Array
+        (
+            [count] => 6
+            [words] => Array
+                (
+                    [0] => TAT-TAT-TAT
+                    [1] => TITTER-TOTTER
+                    [2] => TITTLE-TATTLE
+                    [3] => TITTLE-TATTLED
+                    [4] => TITTLE-TATTLER
+                    [5] => TITTLE-TATTLING
+                    [6] => TWITTER-TWATTER
+                    [7] => TWITTLE-TWATTLE
+                )
+
+        )
+
+    [U] => Array
+        (
+            [count] => 5
+            [words] => Array
+                (
+                    [0] => UNTUMULTUOUS
+                    [1] => UNTUMULTUOUSLY
+                )
+
+        )
+
+    [V] => Array
+        (
+            [count] => 3
+            [words] => Array
+                (
+                    [0] => EVVIVA
+                    [1] => FIVE-VALVED
+                    [2] => OVERINVOLVE
+                    [3] => OVERINVOLVED
+                    [4] => OVERINVOLVES
+                    [5] => OVERINVOLVING
+                    [6] => OVERSURVIVING
+                    [7] => OVOVIVIPARA
+                    [8] => OVOVIVIPARISM
+                    [9] => OVOVIVIPARITY
+                    [10] => OVOVIVIPAROUS
+                    [11] => OVO-VIVIPAROUS
+                    [12] => OVOVIVIPAROUSLY
+                    [13] => SAVOIR-VIVRE
+                    [14] => VAGINOVULVAR
+                    [15] => VELVET-LEAVED
+                    [16] => VIVARVARIA
+                    [17] => VIVA-VOCE
+                    [18] => VIVIFICATIVE
+                    [19] => VIVISECTIVE
+                    [20] => VULVOVAGINAL
+                    [21] => VULVOVAGINITIS
+                )
+
+        )
+
+    [W] => Array
+        (
+            [count] => 4
+            [words] => Array
+                (
+                    [0] => WAW-WAW
+                    [1] => WOW-WOW
+                    [2] => WOWWOWS
+                )
+
+        )
+
+    [X] => Array
+        (
+            [count] => 3
+            [words] => Array
+                (
+                    [0] => XXX
+                )
+
+        )
+
+    [Y] => Array
+        (
+            [count] => 3
+            [words] => Array
+                (
+                    [0] => AMYLOHYDROLYSIS
+                    [1] => AMYLOHYDROLYTIC
+                    [2] => BRACHYDACTYLY
+                    [3] => CALYPHYOMY
+                    [4] => CHYLOPHYLLY
+                    [5] => CHYLOPHYLLOUSLY
+                    [6] => CYTOPHYSIOLOGY
+                    [7] => CORYPHYLLY
+                    [8] => CRYPTOZYGY
+                    [9] => CRYPTOZYGOSITY
+                    [10] => DACRYOCYSTOTOMY
+                    [11] => DACTYLIOGLYPHY
+                    [12] => DAY-BY-DAY
+                    [13] => DYSSYNERGY
+                    [14] => ECTROSYNDACTYLY
+                    [15] => EUHYOSTYLY
+                    [16] => FIFTYTY-FIFTY
+                    [17] => GYPSYFY
+                    [18] => GYPSYRY
+                    [19] => GLYCYPHYLLIN
+                    [20] => GLYCOLYTICALLY
+                    [21] => HYDROLYTICALLY
+                    [22] => HYOSTYLY
+                    [23] => HYPABYSSALLY
+                    [24] => HYPERDACTYLY
+                    [25] => HYPERHYPOCRISY
+                    [26] => HYPERMYOTROPHY
+                    [27] => HYPERMYSTICALLY
+                    [28] => HYPERPHYSICALLY
+                    [29] => HYPOCYSTOTOMY
+                    [30] => HYPOGYNY
+                    [31] => HYPOHYPOPHYSISM
+                    [32] => HYPOPHYSECTOMY
+                    [33] => HYPSOPHYLLARY
+                    [34] => YACKETY-YACK
+                    [35] => YACKETY-YAK
+                    [36] => YACKETY-YAKKED
+                    [37] => YACKETY-YAKKING
+                    [38] => YAKETY-YAK
+                    [39] => YAKETY-YAKKED
+                    [40] => YAKETY-YAKKING
+                    [41] => YAKITY-YAK
+                    [42] => YAKKETY-YAK
+                    [43] => MYELOLYMPHOCYTE
+                    [44] => MYSTIFYINGLY
+                    [45] => NONSYNONYMOUSLY
+                    [46] => PACHYDACTYLY
+                    [47] => PHENYLGLYOXYLIC
+                    [48] => PHYSIOTYPY
+                    [49] => PHYTOPHYLOGENY
+                    [50] => PHYTOPHYSIOLOGY
+                    [51] => PYROLYTICALLY
+                    [52] => PLAY-BY-PLAY
+                    [53] => POLYCYCLY
+                    [54] => POLYCOTYLEDONY
+                    [55] => POLYCOTYLY
+                    [56] => POLYDACTYLY
+                    [57] => POLYEMBRYONY
+                    [58] => POLYGYNAIKY
+                    [59] => POLYGYNY
+                    [60] => POLYHYDROXY
+                    [61] => POLYKARYOCYTE
+                    [62] => POLYMYTHY
+                    [63] => POLYONYMY
+                    [64] => POLYPHYLETY
+                    [65] => POLYPHYLY
+                    [66] => POLYPHYLLY
+                    [67] => POLYPHYLOGENY
+                    [68] => POLYSYLLABICITY
+                    [69] => POLYSYMMETRY
+                    [70] => POLYSPONDYLY
+                    [71] => POLYTYPY
+                    [72] => PSYCHOPANNYCHY
+                    [73] => SYMPHYSEOTOMY
+                    [74] => SYMPHYSY
+                    [75] => SYMPHYSIOTOMY
+                    [76] => SYMPHYSOTOMY
+                    [77] => SYMPHYTICALLY
+                    [78] => SYNDACTYLY
+                    [79] => SYNONYMY
+                    [80] => SYNONYMITY
+                    [81] => SYNONYMOUSLY
+                    [82] => SYZYGETICALLY
+                    [83] => SYZYGY
+                    [84] => UNSYNONYMOUSLY
+                    [85] => XYLOGLYPHY
+                    [86] => XYLOPYROGRAPHY
+                    [87] => XYLOTYPOGRAPHY
+                )
+
+        )
+
+    [Z] => Array
+        (
+            [count] => 4
+            [words] => Array
+                (
+                    [0] => DRIZZLE-DROZZLE
+                    [1] => FUZZY-GUZZY
+                    [2] => FUZZY-WUZZY
+                    [3] => MEZZO-MEZZO
+                    [4] => PIZZAZZ
+                    [5] => PIZZAZZES
+                    [6] => RAZZLE-DAZZLE
+                    [7] => RAZZMATAZZ
+                )
+
+        )
+
+)
