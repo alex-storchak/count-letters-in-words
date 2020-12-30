@@ -1,7 +1,9 @@
 <?php
 
-require_once 'AlphabetUtils.php';
-require_once 'CsvReader.php';
+namespace main;
+
+use main\utils\AlphabetUtils;
+use main\utils\CsvReader;
 
 /**
  * Class LetterCounter
@@ -10,30 +12,26 @@ class LetterCounter
 {
     /**
      * Max amount of example words in result array
-     * @var int
      */
-    private $maxWordCount = 100;
+    private int $maxWordCount;
+    /**
+     * Processed result
+     */
+    private array $result = [];
 
     /**
      * @param int $maxWordCount
      */
-    public function __construct($maxWordCount)
+    public function __construct(int $maxWordCount)
     {
         $this->maxWordCount = $maxWordCount;
     }
 
-    public function process($alphabetStr, $dictSize, $dictFile, $resultFile)
+    public function process($alphabetStr, $dictFileName)
     {
+        $dict = new Dictionary($dictFileName, new CsvReader(Dictionary::STORE_DIR_PATH . $dictFileName));
         $letters = AlphabetUtils::toArrayFromStr($alphabetStr);
-        $dict = new SplFixedArray($dictSize);
-        $csv = new CsvReader($dictFile);
         $result = [];
-
-        $i = 0;
-        foreach ($csv->rows() as $row) {
-            $dict[$i] = $row;
-            $i++;
-        }
 
         foreach ($letters as $letter) {
             $result[$letter] = [
@@ -41,7 +39,7 @@ class LetterCounter
                 'words' => [],
             ];
 
-            foreach ($dict as $word) {
+            foreach ($dict->getContent() as $word) {
                 if (strlen($word) > 15) // ТЗ: слова содержат не более 15 букв
                     continue;
 
@@ -55,10 +53,16 @@ class LetterCounter
             }
         }
 
+        $this->result = $result;
+        $this->saveResult($dictFileName);
+    }
+
+    private function saveResult($dictFileName)
+    {
         ob_start();
-        print_r($result);
+        print_r($this->result);
         $r = ob_get_clean();
 
-        file_put_contents($resultFile, $r);
+        file_put_contents(Dictionary::STORE_DIR_PATH . '../result/result_' . $dictFileName, $r);
     }
 }

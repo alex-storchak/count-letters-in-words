@@ -1,9 +1,13 @@
 # count-letters-in-words
 Script calculates minimum amount of each letter in an alphabet for constructing any word in the language.
 
-Files `russian.txt` and `english.txt` contain kind of summary of all words in
+Files `/data/dict/example/russian.txt` and `/data/dict/example/english.txt` contain kind of summary of all words in
 Russian and English languages respectively. Both of them have been found
 somewhere in the open source.
+
+Prepare data:
+ - place a dictionary file to the directory `/data/dict`
+ - add correct method call into run.php as shown in the example there 
 
 To run script use
  

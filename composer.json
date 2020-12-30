@@ -1,0 +1,12 @@
+{
+  "name": "alex-storchak/count-letters-in-words",
+  "description": "Script calculates minimum amount of each letter in an alphabet for constructing any word in the language.",
+  "autoload": {
+    "psr-4": {
+      "main\\": "src"
+    }
+  },
+  "require": {
+    "ext-iconv": "*"
+  }
+}
