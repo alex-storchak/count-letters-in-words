@@ -3,34 +3,40 @@
 namespace main;
 
 use main\utils\AlphabetUtils;
-use main\utils\CsvReader;
 
 /**
  * Class LetterCounter
  */
-class LetterCounter
+class AlphabetLetterCounter
 {
+    const MAX_AMOUNT_LETTERS_IN_WORD = 15; // ТЗ: слова содержат не более 15 букв
     /**
      * Max amount of example words in result array
      */
     private int $maxWordCount;
     /**
-     * Processed result
+     * String that contains all alphabet letters without spaces
      */
-    private array $result = [];
-
+    private string $alphabetStr;
     /**
-     * @param int $maxWordCount
+     * Contains dictionary content from file as object
      */
-    public function __construct(int $maxWordCount)
-    {
+    private Dictionary $dictionary;
+
+    public function __construct(
+        int $maxWordCount,
+        string $alphabetStr,
+        Dictionary $dictionary
+    ) {
         $this->maxWordCount = $maxWordCount;
+        $this->alphabetStr = $alphabetStr;
+        $this->dictionary = $dictionary;
     }
 
-    public function process($alphabetStr, $dictFileName)
+    public function process(): array
     {
-        $dict = new Dictionary($dictFileName, new CsvReader(Dictionary::STORE_DIR_PATH . $dictFileName));
-        $letters = AlphabetUtils::toArrayFromStr($alphabetStr);
+        $dict = $this->dictionary;
+        $letters = AlphabetUtils::toArrayFromStr($this->alphabetStr);
         $result = [];
 
         foreach ($letters as $letter) {
@@ -40,7 +46,7 @@ class LetterCounter
             ];
 
             foreach ($dict->getContent() as $word) {
-                if (strlen($word) > 15) // ТЗ: слова содержат не более 15 букв
+                if (strlen($word) > self::MAX_AMOUNT_LETTERS_IN_WORD)
                     continue;
 
                 $letterCount = substr_count($word, $letter);
@@ -53,16 +59,6 @@ class LetterCounter
             }
         }
 
-        $this->result = $result;
-        $this->saveResult($dictFileName);
-    }
-
-    private function saveResult($dictFileName)
-    {
-        ob_start();
-        print_r($this->result);
-        $r = ob_get_clean();
-
-        file_put_contents(Dictionary::STORE_DIR_PATH . '../result/result_' . $dictFileName, $r);
+        return $result;
     }
 }

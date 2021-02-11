@@ -7,13 +7,14 @@ somewhere in the open source.
 
 Prepare data:
  - place a dictionary file to the directory `/data/dict`
- - add correct method call into run.php as shown in the example there 
 
-To run script use
+To run script use (specify arguments, both of them required)
  
-`php run.php`
- 
+`php run.php [file name with extension for dictionary from /data/dict] [string with an alphabet of the chosen language]`  
+
 Optionally it's possible to specify argument with a maximum amount
 of example words in the result array (default is 100)
 
-`php run.php 10`
+`php run.php english.txt ABCDEFGHIJKLMNOPQRSTUVWXYZ 10`
+
+Result file will be created at `/data/result/result_[file name with extension for dictionary from /data/dict]`.

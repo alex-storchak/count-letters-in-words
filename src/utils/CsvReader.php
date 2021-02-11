@@ -6,18 +6,21 @@ use Generator;
 
 class CsvReader
 {
-    protected $file;
+    /**
+     * @var FileClientInterface provide interface for working with a file
+     */
+    protected FileClientInterface $fileClient;
 
-    public function __construct($filePath)
+    public function __construct(FileClientInterface $fileClient)
     {
-        $this->file = fopen($filePath, 'r');
+        $this->fileClient = $fileClient;
     }
 
     public function rows(): Generator
     {
-        rewind($this->file);
-        while (!feof($this->file)) {
-            $row = fgetcsv($this->file, 4096);
+        $this->fileClient->rewind();
+        while (! $this->fileClient->feof()) {
+            $row = $this->fileClient->fgetcsv();
             if (is_array($row)) {
                 $row = iconv('cp1251', 'utf-8', strtoupper($row[0]));
             }
@@ -28,10 +31,10 @@ class CsvReader
 
     public function getAmountOfRows(): int
     {
-        rewind($this->file);
+        $this->fileClient->rewind();
         $count = 0;
-        while (!feof($this->file)) {
-            if (fgets($this->file, 4096)) {
+        while (! $this->fileClient->feof()) {
+            if ($this->fileClient->fgets()) {
                 $count++;
             }
         }

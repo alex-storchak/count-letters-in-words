@@ -1,16 +1,36 @@
 <?php
 
-use main\LetterCounter;
+use main\AlphabetLetterCounter;
+use main\Dictionary;
+use main\utils\CsvReader;
+use main\utils\FileClient;
 
 require 'vendor/autoload.php';
 
-$maxWordCount = ($argc == 2) ? $argv[1] : 100;
+if ($argc < 3) {
+    echo 'ERROR! Not enough arguments: ' .  PHP_EOL .
+        '   - First should be the a dictionary file name inside the dir /data/dict' . PHP_EOL .
+        '   - Second should be the alphabet string of the corresponding language' .
+        ' (ex. "ABCDEFGHIJKLMNOPQRSTUVWXYZ")' . PHP_EOL .
+        '   - [Optional] Third should be the max amount of example matched words for each letter' . PHP_EOL;
+    exit(1);
+}
 
-$letterCounter = new LetterCounter($maxWordCount);
+$dictFileName = $argv[1]; // 'english.txt'
+$alphabetStr = $argv[2]; // 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+$maxWordCount = ($argc == 4) ? $argv[3] : 100;
 
-// uncomment for run script
-// $letterCounter->process(<string with an alphabet of the chosen language>, file name with extension for dictionary from /data/dict );
+$dictFilePath = Dictionary::STORE_DIR_PATH . $dictFileName;
+$resultFilePath = Dictionary::STORE_DIR_PATH . '../result/result_' . $dictFileName;
 
-// examples
-//$letterCounter->process('АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ', 'russian.txt');
-//$letterCounter->process('ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'english.txt');
+$letterCounter = new AlphabetLetterCounter(
+    $maxWordCount,
+    $alphabetStr,
+    new Dictionary(new CsvReader(new FileClient($dictFilePath)))
+);
+$result = $letterCounter->process();
+(new FileClient($resultFilePath))->saveDataToFile(
+    print_r($result, true)
+);
+
+exit(0);

@@ -6,7 +6,15 @@
       "main\\": "src"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "tests\\main\\": "tests"
+    }
+  },
   "require": {
     "ext-iconv": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
   }
 }

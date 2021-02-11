@@ -8,20 +8,18 @@ use SplFixedArray;
 class Dictionary
 {
     const STORE_DIR_PATH = __DIR__ . '/../data/dict/';
+    const INI_SET_MEMORY_LIMIT = '512M';
 
-    private string $fileName;
     private CsvReader $csvReader;
     private int $dictSize;
     private SplFixedArray $content;
 
     /**
      * Dictionary constructor.
-     * @param $fileName
      * @param CsvReader $csvReader
      */
-    public function __construct(string $fileName, CsvReader $csvReader)
+    public function __construct(CsvReader $csvReader)
     {
-        $this->fileName = $fileName;
         $this->csvReader = $csvReader;
     }
 
@@ -36,7 +34,7 @@ class Dictionary
     public function getContent(): SplFixedArray
     {
         if (!isset($this->content)) {
-            ini_set('memory_limit', '512M');
+            ini_set('memory_limit', self::INI_SET_MEMORY_LIMIT);
             $this->content = new SplFixedArray($this->getDictSize() + 1);
             $i = 0;
             foreach ($this->csvReader->rows() as $row) {
