@@ -2,10 +2,6 @@
 
 use main\AlphabetLetterCounter;
 use main\Dictionary;
-use main\utils\CsvReader;
-use main\utils\FileClient;
-
-require 'vendor/autoload.php';
 
 if ($argc < 3) {
     echo 'ERROR! Not enough arguments: ' .  PHP_EOL .
@@ -18,19 +14,20 @@ if ($argc < 3) {
 
 $dictFileName = $argv[1]; // 'english.txt'
 $alphabetStr = $argv[2]; // 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-$maxWordCount = ($argc == 4) ? $argv[3] : 100;
+$maxWordCount = ($argc == 4) ? (int) $argv[3] : 100;
 
-$dictFilePath = Dictionary::STORE_DIR_PATH . $dictFileName;
-$resultFilePath = Dictionary::STORE_DIR_PATH . '../result/result_' . $dictFileName;
+// Configuring DI container
+$container = require __DIR__ . '/app/bootstrap.php';
+$container->set('dictFilePath', Dictionary::STORE_DIR_PATH . $dictFileName);
+$container->set('resultFilePath', Dictionary::STORE_DIR_PATH . '../result/result_' . $dictFileName);
+$container->set('maxWordCount', $maxWordCount);
+$container->set('alphabetStr', $alphabetStr);
 
-$letterCounter = new AlphabetLetterCounter(
-    $maxWordCount,
-    $alphabetStr,
-    new Dictionary(new CsvReader(new FileClient($dictFilePath)))
-);
+// process
+$letterCounter = $container->get(AlphabetLetterCounter::class);
 $result = $letterCounter->process();
-(new FileClient($resultFilePath))->saveDataToFile(
-    print_r($result, true)
-);
+
+$resultFileClient = $container->get('resultFileClient');
+$resultFileClient->saveDataToFile(print_r($result, true));
 
 exit(0);
